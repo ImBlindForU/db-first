@@ -1,0 +1,23 @@
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+cars usate
+
+modello macchina    varchar(30)        NOT NULL
+marca macchina      varchar(50)        NOT NULL
+larghezza           float(6, 3)        NULL
+lunghezza           float(6, 3)        NULL
+peso                float(8, 3)        NOT NULL
+radio               varchar(2)         NOT NULL
+accessori           varchar(2)         NOT NULL
+riscladamento       varchar(2)         NOT NULL
+climatizzazione     varchar(2)         NOT NULL
+colore              varchar(20)        NOT NULL
+km                  double(10, 3)      NOT NULL
+segni particolare   varchar(2)         NOT NULL
+anno di costruzione year               NOT NULL
+consumo             float(5, 3)        NOT NULL
+prezzo              int                NOT NULL
+garanzia            varchar(2)         NOT NULL
+descrizione         text               NULL
+
